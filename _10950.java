@@ -5,12 +5,17 @@ import java.util.Scanner ;
 public class _10950 {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in) ; 
-        int T = in.nextInt() ; DSAGenParameterSpec
+        int T = in.nextInt() ; 
+        // int arr[] = new int[T] ; 
         for (int i = 0; i < T; i++){
-            System.out.println(i) ;
             int A = in.nextInt() ; 
             int B = in.nextInt() ;
+            System.out.println(A + B) ;
         }
+        // in.close()  ; 
+        // for (int k : arr) {
+        //     System.out.println(k) ; 
+        //}
     }        
     
 }
